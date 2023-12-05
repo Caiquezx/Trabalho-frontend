@@ -1,0 +1,164 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    position: fixed
+}
+
+.navbar-align {
+    display: flex;
+    width: 80%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo h2 {
+    font-size: 40px;
+}
+
+.logo-img {
+    width: 50px;
+    height: 50px;
+}
+
+.navbar-itens {
+    display: flex;
+    gap: 1rem;
+}
+
+.navbar-itens li {
+    list-style: none;
+}
+
+.navbar-itens li a {
+    padding: 20px;
+    height: 20px;
+    border-radius: 5px;
+}
+
+.navbar-itens li a:hover {
+    transition: 0.3s;
+    background-color: rgb(97, 158, 255);
+    color: white;
+    cursor: pointer;
+}
+
+.navbar-itens li a {
+    text-decoration: none;
+    font-weight: 600;
+    color: rgb(31, 31, 31);
+}
+
+.button-navbar {
+    background-color: #00B37C;
+    border-color: #00B37C;
+    border-radius: 5px;
+    color: white;
+    padding: 10px 60px;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.button-navbar:hover {
+    transition: 0.3s;
+    background-color: #03cc90;
+    border-color: #03cc90;
+    border-radius: 5px;
+    color: white;
+    padding: 10px 60px;
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+/* HOME */
+
+.home {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.box-home {
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.form-home {
+    width: 700px;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.form-home h3 {
+    font-size: 25px;
+    background-color: #0098F9;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 10px;
+    font-weight: 400;
+}
+
+.form-home h1 {
+    font-size: 45px;
+}
+
+.form-home p {
+    font-size: 20px;
+}
+
+.button-form {
+    font-size: 20px;
+    background-color: #03cc90;
+    border-color: #03cc90;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 10px;
+    font-weight: 400;
+    width: 300px;
+}
+
+.align-button {
+    width: 80%;
+    display: flex;
+    justify-content: right;
+}
+
+.button-left {
+    background-color: #03cc90;
+    border-color: #03cc90;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    font-size: 18px;
+    padding: 5px 10px;
+    color: white;
+}
+
+
+
+
